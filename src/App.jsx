@@ -1,10 +1,12 @@
-function App() {
+import categories from "./assets/categories";
+import Directory from "./componets/Directory/Directory";
 
+const App = () => {
   return (
-    <div className="App">
-     
-    </div>
+    <>
+      <Directory categories={categories} />
+    </>
   );
-}
+};
 
 export default App;
